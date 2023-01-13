@@ -1,13 +1,7 @@
-/* Optional - Remove 'CloudBees CI' string */
-#jenkins-home-link {
-  display: none;
-}
-
-/* Optional alternative - replace 'CloudBees CI' string with something else */
-#jenkins-home-link {
+jenkins-home-link {
   visibility: hidden;
 }
-#jenkins-home-link:before {
+jenkins-home-link:before {
   content: "My Sample Text";
   visibility: visible;
 }
