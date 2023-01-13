@@ -1,2 +1,1 @@
-let headerElement = getElementById("header-honeyui");
-headerElement.innerHTML += "<div><span class="sda-product-section">Hello</span></div>";
+getElementById("header-honeyui").innerHTML += "<div><span class="sda-product-section">Hello</span></div>";
