@@ -1,21 +1,13 @@
-@charset “utf-8”;
-#header .logo {
-  height: 36px;
-}
-
-
-/* Custom style for my Jenkins Platform */
-
-.logo {
-  background: url(/userContent/logo.png) no-repeat 10px center;
-}
-
-.logo img {
+/* Optional - Remove 'CloudBees CI' string */
+#jenkins-home-link {
   display: none;
 }
 
-.logo:after {
-  content: 'Jenkins my instance';
-  font-weight: bold;
-  white-space: nowrap;
-} // Content after logo
+/* Optional alternative - replace 'CloudBees CI' string with something else */
+#jenkins-home-link {
+  visibility: hidden;
+}
+#jenkins-home-link:before {
+  content: "My Sample Text";
+  visibility: visible;
+}
