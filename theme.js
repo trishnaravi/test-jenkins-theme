@@ -1,1 +1,1 @@
-getElementById("jenkins").innerHTML = "<div>HELLO</div>" + getElementById("jenkins").innerHTML;
+document.getElementById("jenkins").innerHTML = "<div>HELLO</div>" + document.getElementById("jenkins").innerHTML;
