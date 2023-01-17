@@ -1,5 +1,3 @@
-function addMessage() {
-  document.getElementById("jenkins").innerHTML = "<div>HELLO</div>" + document.getElementById("jenkins").innerHTML;
-}
-
-window.onload = addMessage;
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById("jenkins").innerHTML = "<div>HELLO</div>" + document.getElementById("jenkins").innerHTML;
+}, false);
